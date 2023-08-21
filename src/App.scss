@@ -23,7 +23,7 @@ body {
 }
 
 .header {
-  position: fixed;
+  
   top: 0;
   width: 100%;
   display: flex;
@@ -83,4 +83,11 @@ body {
   &:hover {
     background-color: rgb(228, 176, 107);
   }
+}
+
+
+.main-search{
+    height: 100vh;
+    width: 100%;
+    display: flex;
 }

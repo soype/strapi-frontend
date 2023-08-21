@@ -22,7 +22,6 @@ body {
 }
 
 .header {
-  position: fixed;
   top: 0;
   width: 100%;
   display: flex;
@@ -82,4 +81,10 @@ body {
 }
 .home-button:hover {
   background-color: rgb(228, 176, 107);
+}
+
+.main-search {
+  height: 100vh;
+  width: 100%;
+  display: flex;
 }/*# sourceMappingURL=App.css.map */

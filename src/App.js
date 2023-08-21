@@ -2,12 +2,14 @@ import './App.css';
 
 import Home from './Pages/Home';
 import { Header } from './Components/Header';
+import Search from './Pages/Search';
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
-      <Home></Home>
+      
+      <Search></Search>
     </div>
   );
 }
